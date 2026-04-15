@@ -1,4 +1,4 @@
-# Math Decoder LM (~10M Params)
+# Math Decoder LM (~25M Params)
 
 A decoder-only Transformer (~25M parameters) trained from scratch for mathematical reasoning. Built with modern components (RoPE, pre-norm) and trained using synthetic data plus RL fine-tuning for step-by-step reasoning.
 
