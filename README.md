@@ -1,6 +1,6 @@
 # Math Decoder LM (~10M Params)
 
-A decoder-only Transformer (~10M parameters) trained from scratch for mathematical reasoning. Built with modern components (RoPE, pre-norm) and trained using synthetic data plus RL fine-tuning for step-by-step reasoning.
+A decoder-only Transformer (~25M parameters) trained from scratch for mathematical reasoning. Built with modern components (RoPE, pre-norm) and trained using synthetic data plus RL fine-tuning for step-by-step reasoning.
 
 ---
 
@@ -16,13 +16,13 @@ This project explores whether small language models can learn structured mathema
 ## Architecture
 
 - Model Type: Decoder-only Transformer  
-- Parameters: ~10M  
+- Parameters: ~25M  
 - Attention: Multi-head self-attention  
 - Positional Encoding: RoPE (Rotary Positional Embeddings)  
 - Normalization: Pre-LayerNorm  
 - Feedforward: GELU-based MLP  
 - Residual Connections: Standard  
-- Context Length: 256–512 tokens  
+- Context Length: 256 tokens  
 
 ### Decoder Block
 
